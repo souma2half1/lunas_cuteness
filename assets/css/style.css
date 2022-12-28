@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
-* {
-  color: blue;
+body{
+    font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo";
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
 }
+
