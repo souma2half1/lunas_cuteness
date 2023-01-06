@@ -139,7 +139,7 @@
           <tr>
             <th>Menu</th>
             <td>
-              <select>
+              <select class="select">
                 <option value="menu-1">Menu 1</option>
                 <option value="menu-2">Menu 2</option>
                 <option value="menu-3">Menu 3</option>
@@ -148,27 +148,26 @@
           </tr>
           <tr>
             <th><label for="name">Name</th>
-            <td><input type="text" id="name"/></td></label>
+            <td><input type="text" id="name" class="input"/></td></label>
           </tr>
           <tr>
             <th><label for="email">email</th>
-            <td><input type="email" id="email"/></td></label>
+            <td><input type="email" id="email" class="input"/></td></label>
           </tr>
           <tr>
             <th>Gender</th>
-            <td><label>
-              <input type="radio" name="gender" value="male"/>Male
-              <input type="radio" name="gender" value="femail"/>Femail
-            </label></td>
+            <td>
+              <input type="radio" name="gender" value="male" class="radio"/>Male
+              <input type="radio" name="gender" value="femail" class="radio"/>Femail
+            </td>
           </tr>
           <tr>
-            <th><label for="name">Detail</th>
-            <td><textarea cols="30" rows="10"></textarea></label>
+            <th><label for="detail">Detail</th>
+            <td><textarea cols="30" rows="10" id="detail" class="textarea"></textarea></label>
           </tr>
         </table>
 
-        <input type="text" name=""/>
-        <input type="submit" value="Submit"/>
+        <button type="submit" class="button">Submit</button>
       </form>
     </section>
 

@@ -7,6 +7,10 @@ body{
     color: #333;
 }
 
+label, input,textarea,select,button{
+    cursor: pointer;
+}
+
 .section{
     padding: 30px 15px;
 }
@@ -37,9 +41,6 @@ body{
 .about-headline{
     margin: 0 0 20px;
     font-size: 30px;
-}
-.about-discription{
-
 }
 
 .grid{
@@ -75,7 +76,7 @@ body{
 .feature-headline{
     font-weight: bold;
     margin-bottom: 20px;
-    
+
 }
 
 .photo{
@@ -87,9 +88,35 @@ body{
 .feature-description{
     text-align: left;
     margin: 0;
-    
+
 }
 
 iframe{
     margin-bottom: 20px;
+}
+
+.select{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 500px;
+}
+
+.input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 500px;
+}
+
+.radio{
+    margin: 0 10px;
+}
+
+.textarea{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 500px;
+    min-height: 100px;
 }
