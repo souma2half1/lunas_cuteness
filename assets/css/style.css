@@ -11,6 +11,10 @@ label, input,textarea,select,button{
     cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 .section{
     padding: 30px 15px;
 }
@@ -143,3 +147,16 @@ iframe{
     width: 80px;
     background-color: #92d3ca
 }
+
+.map{
+    display: flex;
+    margin: 0;
+    padding: 40px 15px;
+    align-items: center;
+}
+
+footer{
+    background-color:#E69500;
+    color: #fff;
+}
+
