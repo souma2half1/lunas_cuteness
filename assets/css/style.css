@@ -24,6 +24,11 @@ a {
     background-color: #efefef;
 }
 
+
+.section.section-forth{
+    background-color: #efefef;
+}
+
 .section-headline{
     text-align: center;
     font-size: 40px;
@@ -33,6 +38,7 @@ a {
 
 .about{
     margin: 0;
+    justify-content: center;
     display: flex;
 }
 
@@ -42,6 +48,7 @@ a {
 }
 .about-caption{
     padding-left: 15px;
+    border: double;
 }
 .about-headline{
     margin: 0 0 20px;
