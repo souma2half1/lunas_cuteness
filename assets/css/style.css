@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 768px){
+    
+}
+
 body{
     font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo";
     font-size: 15px;
@@ -35,6 +39,20 @@ a {
     font-weight: bold;
     margin: 0 0 40px;
 }
+
+@media screen and (max-width: 768px){
+    .section{
+        padding: 20px 40px;
+    }
+    .section-headline{
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+    .section-button{
+        margin: 0 0 20px;
+    }
+}
+
 
 .header{
     width: 100%;
@@ -73,6 +91,12 @@ header > h1 {
     align-items: center;
 }
 
+@media screen and (max-width: 768px){
+    .header{
+        font-size: 10px;
+    }
+}
+
 .hero{
     width: 100vw;
     height: 100vh;
@@ -97,7 +121,18 @@ header > h1 {
     width: 100%;
     height: auto;
     z-index: 1;
+    position: absolute;
 }
+
+@media screen and (max-width: 768px){
+ .hero{
+     height: 300px;
+ }
+ .hero > strong{
+     font-size: 50px;
+ }   
+}
+
 
 .hero-particles{
     position: absolute;
@@ -124,6 +159,20 @@ header > h1 {
     font-size: 30px;
 }
 
+@media screen and (max-width: 768px){
+    .about{
+        display: block;
+    }
+    .about-image{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-headline{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
 .grid{
     display: flex;
     margin: 0;
@@ -146,6 +195,18 @@ header > h1 {
 
 .grid-col-4>.grid-item{
     width: 25%;
+}
+
+@media screen and (max-width: 768px){
+    .grid{
+        display: block;
+    }
+    .grid-col-2 > .grid-item,
+    .grid-col-3 > .grid-item,
+    .grid-col-4 > .grid-item{
+        width: 100%;
+        margin: 20px 0;
+    }
 }
 
 
@@ -202,6 +263,15 @@ iframe{
     min-height: 100px;
 }
 
+@media screen and (max-width: 768px){
+    .select,
+    .input,
+    .textarea{
+        max-width: auto;
+        width: 100%;
+    }
+}
+
 .form-table{
     margin: 0 auto;
 }
@@ -217,6 +287,16 @@ iframe{
 
 .form-button{
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .form-table,
+    .form-table tbody,
+    .form-table tr,
+    .form-table th,
+    .form-table td{
+        display: block;
+    }
 }
 
 .button{
@@ -251,4 +331,18 @@ address{
 footer{
     background-color:#E6C281;
     color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .map{
+        padding: 15px;
+        display: block;
+    }
+    .map > iframe{
+        width: 100%;
+    }
+    .shop{
+        width: 100%;
+        text-align: center;
+    }
 }
