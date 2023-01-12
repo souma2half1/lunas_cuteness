@@ -112,7 +112,6 @@ header > h1 {
     font-size: 120px;
     color: #FFAAE5;
     display: block;
-    width: 100%;
     text-align: center;
     z-index: 3;
 }
@@ -124,7 +123,7 @@ header > h1 {
     position: absolute;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1290px){
  .hero{
      height: 300px;
  }
@@ -132,6 +131,8 @@ header > h1 {
      font-size: 50px;
  }   
 }
+
+
 
 
 .hero-particles{
