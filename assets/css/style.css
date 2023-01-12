@@ -50,7 +50,6 @@ a {
     }
 }
 
-
 .header{
     width: 100%;
     display: flex;
@@ -129,6 +128,15 @@ header > h1 {
  }   
 }
 
+@media screen and (max-width: 480px){
+ .hero{
+     height: 300px;
+ }
+ .hero > strong{
+     font-size: 25px;
+ }   
+}
+
 .hero-particles{
     position: absolute;
     z-index: 2;
@@ -156,7 +164,7 @@ header > h1 {
     font-size: 30px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1160px){
     .about{
         display: block;
     }
@@ -204,7 +212,6 @@ header > h1 {
         margin: 20px 0;
     }
 }
-
 
 .feature{
     text-align: center;
@@ -263,8 +270,8 @@ iframe{
     .select,
     .input,
     .textarea{
-        max-width: auto;
-        width: 100%;
+      max-width: auto;
+      width: 100%;
     }
 }
 
