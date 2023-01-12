@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px){
-    
-}
 
 body{
     font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo";
@@ -132,9 +129,6 @@ header > h1 {
  }   
 }
 
-
-
-
 .hero-particles{
     position: absolute;
     z-index: 2;
@@ -151,10 +145,12 @@ header > h1 {
     width: 400px;
     height: 600px;
 }
+
 .about-caption{
     padding-left: 15px;
     border: double;
 }
+
 .about-headline{
     margin: 0 0 20px;
     font-size: 30px;
@@ -178,7 +174,6 @@ header > h1 {
     display: flex;
     margin: 0;
     padding: 0;
-
 }
 
 .grid-item{
@@ -198,7 +193,7 @@ header > h1 {
     width: 25%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1160px){
     .grid{
         display: block;
     }
